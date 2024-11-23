@@ -1,0 +1,50 @@
+Color Sorting:
+    Program should be aware of what color is in the hook
+    Distance and optical sensor
+    Use these two sensors along with encoders to control everything
+    Set chain to 68 (17 chain links per hook) - be able to track where every hook is using encoder
+    1020 degrees
+
+    Use deque (struct called rings)
+        which hook got it
+        what color
+    Use deque to store
+    Think about what encoder values ring appears
+
+No PID for arm!!!!
+
+two rings on wall sticks each time
+
+move hooks when im 
+- 
+
+StoreRing{} When I hold button R1 and hold R2
+
+R2 By itself is outtake
+
+Hold R1: Intake & Click R2
+-Scoring mode
+
+Hold R1
+-Storing mode
+
+IF ring is first slot and wall stake and it goes to seocnd slote
+
+
+reset hook a the top, reminder 
+
+r1 and r2 linked to motors
+
+
+Thread:
+
+
+Ring seen = we know its color and its there.
+EncoderValue%OneRotation = Remainder 
+
+I find the other hooks remainder by subtracting one hook distance
+4 values that pick up a ring
+we know currentvalue, which one happens next 
+Find value reaches top and we excute another code.
+------
+Everytime time there is a hook in intaking pos, check if there is a ring, if there is then assign it the hook, otherwise nah.
